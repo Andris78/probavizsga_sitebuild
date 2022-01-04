@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(216, 204, 204);
+  color: rgb(87, 139, 122);
+  position: relative;
+}
+.root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 2rem;
+}
+.inp input {
+  height: 40px;
+  width: 600px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 10px;
+  font-size: 16px;
+}
+button {
+  padding: 15px 70px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(77, 133, 114);
+  color: white;
+  letter-spacing: 0.2rem;
+}
+h1 {
+  letter-spacing: 0.2rem;
+}
